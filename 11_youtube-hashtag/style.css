@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.hashtag-header{
+    /* height: 114px; */
+    background-color:#5454e4;
+    color:white;
+    padding: 4rem;
+    background-image: url("image/download-image/background.png");
+    background-size: 260px;
+    background-position-x: 100%;
+    background-position-y: -190px;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 0;
+    margin-bottom: 1em;
+    font-size: 3em;
+
+}
+span{
+    font-size: 24px;
+}
