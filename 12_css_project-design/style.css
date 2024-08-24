@@ -1,0 +1,29 @@
+body{
+    background-color: #88858C;
+    position: relative;
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    
+}
+.card{
+    display: flex;
+    width: 362px;
+    height: 66px;
+    background-color: white;
+    /* justify-content: row; */
+    
+}
+.card img {
+
+    width: 2rem;
+    height: 2rem;
+    border: 5px solid white;
+    border-radius: 100%;
+    vertical-align: middle;
+    /* margin-left: 200px; */
+    justify-content: flex-end;
+    
+}
+img + img {
+    margin-left: -1rem;
+}

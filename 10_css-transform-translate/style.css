@@ -8,13 +8,17 @@ main{
     width: 300px;
     height: 150px;
     background-color: #168600;
+    background-image: url("https://huggingface.co/datasets/huggingfacejs/tasks/resolve/main/image-classification/image-classification-input.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* background-position: -30px,-30px; */ */
     /* transform: scale(10);
     opacity: 0.10;
     transform-origin: 100%,100%; */
     
     /* transform: rotate(30deg); */
     /* translate: 100px; */
-    /* margin-top: 100px; */
+    /* margin-top: 100px;
 
     padding: 8px;
     position: absolute;
@@ -23,6 +27,15 @@ main{
     top: 50%;
     transform: translate(-50%,-50%);
 
+    transition: transform 200ms;
     box-shadow: 10px 10px 4px rgb(158, 64, 30);
-    text-shadow: 2px 2px #ff0000;
+    /* text-shadow: 2px 2px #ff0000; */
+}
+
+.box :hover{
+    transform:rotate(45deg);  
+}
+h1{
+/* text-shadow: 2px 2px #ff0000; */
+color: blue;
 }
