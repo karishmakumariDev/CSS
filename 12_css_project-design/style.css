@@ -1,22 +1,37 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: #88858C;
+    background-color: #e4e0e7;
     position: relative;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     /* justify-content: flex-end; */
     /* justify-content: space-between; */
     
 }
 .card{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 362px;
-    height: 66px;
+    /* height: 75px; */
     background-color: white;
+    padding: 16px;
+    border-radius: 12px;
     /* justify-content: row; */
     
 }
 .card img {
 
-    width: 2rem;
-    height: 2rem;
+    width: 50px;
+    height: 50px;
     border: 5px solid white;
     border-radius: 100%;
     vertical-align: middle;
@@ -24,6 +39,34 @@ body{
     justify-content: flex-end;
     
 }
+
+#p1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
 img + img {
     margin-left: -1rem;
 }
+
+.card1{
+    display: flax;
+    background-color: white;
+    width: 360px;
+    padding: 16px;
+    border-radius:12px ;
+    flex-direction: row;      /* Arrange the child elements in a row */
+    /* align-items: center;  */
+}
+/* .card1 > div:last-child {
+    margin-left: auto; 
+} */
+ #p2{
+    font-weight: bold;
+    justify-content: center;
+ }
+
+ .card2 {
+    width: 360;
+    background-color: white;
+ }
