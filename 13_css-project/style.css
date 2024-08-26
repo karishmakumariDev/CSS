@@ -220,14 +220,36 @@ width: 280px;
     margin: 20px;
     padding: 10px;
     text-align: start;
+    border-radius: 12px;
 }
 .card10 .svg{
     width: 24px;
     height: 24px;
     padding: 10px;
 }
-
 .card10 .text{
- width: 300px;
+ width: 345px;
  padding: 10px;
+ margin-top: 15px;
+}
+.card10 h2{
+    
+}
+
+
+.card11 {
+    display: flex;
+    width: 362px;
+    background-color: white;
+    flex-direction: column;
+    margin: 20px;
+    padding: 15px;
+    text-align: start;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+.card11 .svg{
+   display: flex;
+   flex-direction: rew;
+   margin: 5px;
 }
