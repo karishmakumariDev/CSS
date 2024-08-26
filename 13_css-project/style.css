@@ -298,3 +298,60 @@ flex-direction: row;
 .card12 h3 {
     font-size: 25px;
 }
+/*   
+start card13 */
+.card13 {
+    display: flex;
+    width: 362px;
+    background-color: white;
+    flex-direction: column;
+    margin: 20px;
+    /* padding: 15px; */
+    border-radius: 12px;   
+}
+.card13  img {
+    width: 362px;
+    text-align: start;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+.card13 .clock {
+    position: absolute;
+        display: flex;
+        width: 80px;
+        background-color:black;
+        color: white;
+        text-align: center;
+        padding: 5px;
+        text-align: center;
+        justify-content: center;
+        border-radius: 5px;
+        margin: 10px;
+}  
+
+.card13 h3 {
+    font-size: 25px;
+}
+.card13 .p{
+    font-size: 15px;
+    color: #888;
+}
+.card13 .text-containe {
+    margin: 10px;
+}
+.card13 p{
+    margin: 5px;
+}
+
+.card13 .im2{
+    /* display: flex; */
+    margin-left: 230px;
+}
+.card13 .image1-containe {
+    display: flex;
+    flex: row;
+    margin: 10px;
+}
+
