@@ -24,10 +24,7 @@ body{
 
    
 }
-#p1{
-    /* font-size: 30px; */
-    /* text-align: center; */
-}
+
 .card3 .im {
     /* width: 10px;
     height: 22px; */
@@ -209,6 +206,10 @@ width: 280px;
     display: flex;
    flex-direction: row;
     padding-top: 10px;
+    
+}
+.card9 h4{
+    margin-left: 5px;
 }
 
 
@@ -226,14 +227,12 @@ width: 280px;
     width: 24px;
     height: 24px;
     padding: 10px;
+   
 }
 .card10 .text{
  width: 345px;
  padding: 10px;
  margin-top: 15px;
-}
-.card10 h2{
-    
 }
 
 
@@ -252,4 +251,50 @@ width: 280px;
    display: flex;
    flex-direction: rew;
    margin: 5px;
+}
+.card11 h2{
+    margin-left: 5px;   
+   }
+   
+
+   .card12 {
+    display: flex;
+    width: 362px;
+    background-color: white;
+    flex-direction: column;
+    margin: 20px;
+    padding: 15px;
+    /* text-align: start; */
+    /* justify-content: space-between; */
+    border-radius: 12px;
+}   
+.card12 p{
+    font-size: 14px;
+    color: #888;
+}
+.card12 h4 {
+    padding: 15px 20px;
+    height: 50px;
+    background-color: #5d51c9;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card12 .svg{
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+.card12 h5{
+    font-size: 18px;
+}
+.card12 .svg1 {
+display: flex;
+flex-direction: row;
+}
+.card12 h3 {
+    font-size: 25px;
 }
