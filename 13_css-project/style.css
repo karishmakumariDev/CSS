@@ -557,7 +557,7 @@ start card13 */
     /* padding: 5px; */
 }
 
-
+ /* start stly card10 */
 .card19 {
     display: flex;
     flex-direction: column;
@@ -597,4 +597,54 @@ start card13 */
     color: white;
     text-align: center;
     margin-top: 50px;
+}
+
+
+.card20{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: white;
+    border-radius: 12px;
+    /* padding: 10px; */
+    margin: 20px;
+}
+.card20 img {
+    width: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card20 .text-containe {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+}
+.card20 p{
+    font-size: 15px;
+    color: #999898;
+}
+
+
+.card21{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: white;
+    border-radius: 12px;
+    /* padding: 10px; */
+    margin: 20px;
+}
+.card21 h3{
+    padding: 20px;
+}
+.card21 img {
+    width: 200px;   
+}
+.card21 p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #888686;
+    padding: 20px;
 }
