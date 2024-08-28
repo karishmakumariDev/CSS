@@ -783,3 +783,52 @@ img + img {
     color: white;
 }
 
+.card25{
+    display: flex;
+    flex-direction: column;
+    width: 362px;
+    background-color: #4f25e9;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 12px;
+    gap: 30px;
+} 
+
+.card25 .text-containe {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    /* justify-content: center; */
+    gap: 10px;
+}
+.card25 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+.card25 .host{
+display: flex;   
+align-items: center;
+justify-content: center;
+width: 70px;
+height: 30px;
+background-color: #272727;
+color: white;
+border-radius: 7px;
+}
+.card25 p{
+    color: white;
+    display: flex;   
+    align-items: center;
+     justify-content: center;
+}
+.card25{
+    color: white;
+}
+
+.card25 .svg{
+    display: flex;
+    flex-direction: row;
+}
