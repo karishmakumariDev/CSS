@@ -739,7 +739,8 @@ start card13 */
     display: flex;
     flex-direction: column;
     width: 362px;
-    background-color: #1f79da;
+    background-color: #3513f8;
+    border-radius: 12px;
     margin: 20px;
     padding: 10px;
     gap: 10px;
@@ -831,4 +832,92 @@ border-radius: 7px;
 .card25 .svg{
     display: flex;
     flex-direction: row;
+}
+
+
+.card26 {
+    display: flex;
+    flex-direction: column;
+    width: 362px;
+    background-color: #4119d3;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 12px;
+    gap: 10px;
+}
+.card26 .svg-container{
+    display: flex;
+    flex-direction: row;
+}
+.card26 .svg-container h2 {
+    color: white;
+    width: 250px;
+}
+.card26 .svg {
+    margin-left: 80px;
+}
+.card26 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    vertical-align: middle;
+    border: 2px solid white;
+}
+/* .card26 .circule{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    vertical-align: middle;
+    border: 2px solid white;
+    background-color: white;
+    
+} */
+.card26 .play{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 40px;
+    background-color: #0f0a41;
+    border-radius: 5px;
+    margin-left: 80px;
+}
+.card26 .text{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    
+}
+.card26 .text .play .svg-container p{
+    color: aliceblue;
+}
+.card26 .text .clock {
+  padding: 5px;
+   color: white; 
+}
+
+.card27{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 200px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 20px;
+    gap: 20px;
+}
+
+.card27 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+.card27 .creator {
+    color: #007BFF;
 }
