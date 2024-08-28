@@ -648,3 +648,95 @@ start card13 */
     color: #888686;
     padding: 20px;
 }
+
+
+.card22{
+    display: flex;
+    width: 362px;
+    /* text-align: center; */
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 20px;
+    border-radius: 12px;
+}
+.card22 .circule{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #0f0a41;
+    margin-left: 155px;
+}
+.card22 .svg {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 14px;
+
+}
+
+.card22 .img {
+    position: relative;
+    display: inline-block;
+  }
+
+.card22 img {
+    width: 362px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.card22 .text-containe{
+    background-color: #161047;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 10px;
+    
+}
+.card22 h5{
+    color: rgb(192, 191, 196);
+}
+.card22 p{
+    color: white;
+    font-size: 20px;
+}
+
+.card23{
+    display: flex;
+    width: 362px;
+    /* text-align: center; */
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 20px;
+    border-radius: 12px;
+    padding: 10px;
+}
+.card23 .image img {
+    width: 342px;
+    border-radius: 12px;
+}
+.card23 text{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.card23 .text img {
+    width: 50px; 
+    height: 50px;
+    border: 5px solid white;
+    border-radius: 100%;
+    vertical-align: middle;
+  }
+
+.card23 p{
+    color: #888686;
+}
+
+
+
