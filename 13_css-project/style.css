@@ -719,13 +719,6 @@ start card13 */
     width: 342px;
     border-radius: 12px;
 }
-.card23 text{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
-}
-
 .card23 .text img {
     width: 50px; 
     height: 50px;
@@ -737,6 +730,105 @@ start card13 */
 .card23 p{
     color: #888686;
 }
+.card23 text{
+    display: flex;
+    flex-direction: row;
+}
 
+.card24 {
+    display: flex;
+    flex-direction: column;
+    width: 362px;
+    background-color: #1f79da;
+    margin: 20px;
+    padding: 10px;
+    gap: 10px;
+}
+.card24 img {
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 100%;
+    vertical-align: middle;
+ 
+}
+img + img {
+    margin-left: -1rem;
+}
 
+.card24 .text-containe {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    color: white;
+}
+.card24 .p{
+    color: #999898;
+}
 
+.card24 .play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 40px;
+    background-color: #0f0a41;
+    border-radius: 5px;
+}
+.card24 .svg-container {
+    display: flex;
+    flex-direction: row;
+}
+.card24 .svg-container p{
+    color: white;
+}
+
+.card25{
+    display: flex;
+    flex-direction: column;
+    width: 362px;
+    background-color: #4f25e9;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 12px;
+    gap: 30px;
+} 
+
+.card25 .text-containe {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    /* justify-content: center; */
+    gap: 10px;
+}
+.card25 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+.card25 .host{
+display: flex;   
+align-items: center;
+justify-content: center;
+width: 70px;
+height: 30px;
+background-color: #272727;
+color: white;
+border-radius: 7px;
+}
+.card25 p{
+    color: white;
+    display: flex;   
+    align-items: center;
+     justify-content: center;
+}
+.card25{
+    color: white;
+}
+
+.card25 .svg{
+    display: flex;
+    flex-direction: row;
+}
