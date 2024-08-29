@@ -53,7 +53,7 @@ body{
 }
 
 
-.card5 {
+/* .card5 {
     display: flex;
     width: 362px;
     background-color: white;
@@ -67,12 +67,12 @@ body{
     width: 250px;
     height: 40px;
     /* padding: 10px; */
- }
+ /* }
  .image1{
     width: 80px;
     height: 40px;
  }
-
+ */ 
 
  .card6 {
     display: flex;
@@ -920,4 +920,85 @@ border-radius: 7px;
 }
 .card27 .creator {
     color: #007BFF;
+}
+
+
+.card28 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 20px;
+}
+.card28 .circle {
+    display: flex;
+    /* text-align: end; */
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    background-color: rgb(122, 99, 138);
+}
+
+.card28 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+.card28 .text-containe{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.card28 .follow {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #007BFF;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.card29 {
+display: flex;
+flex-direction: row;
+width: 362px;
+background-color: white;
+margin: 20px;
+padding: 10px;
+}
+
+.card29 .ticket {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.card29 .circle-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.card29 .circle-containe {
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border-color: #1d1b1b;
+    border: 2px;
+}
+
+.card29 .circle{
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border-color: #524a4a;
+    border: 2px;
 }

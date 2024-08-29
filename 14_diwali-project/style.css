@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+.image-container {
+   min-height: 100vh;
+   background-image: url('download-image/orange-backdrop.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.image-container p{
+    width: 587px;
+    font-family: 'Trebuchet MS';
+    font-size: 46px;
+    /* font-weight: 2px; */
+    margin-left: 300px;
+    
+}
+.image-container.paragraph {
+    margin-left: 0;
+}
+
+.image-container .image {
+    margin-top: 100px;
+}
+
+@media (max-width:840px){
+    .first-deepak{
+        margin-left: auto;
+    }
+    .secund-deepak {
+        display: none;
+    }
+}
