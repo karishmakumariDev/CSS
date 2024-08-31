@@ -15,8 +15,9 @@ body{
   background-color:white;
   border-style: solid;
   border-width: thin;
-  gap: 30px;
-  /* border-left: solid black; */
+  gap: 60px;
+  
+
 }
 
 .box .search{
@@ -27,13 +28,13 @@ body{
    margin-left: 250px;
   width: 300px;
   height: 30px;
-  background-color: rgb(230, 230, 230);
+  background-color: rgb(217, 236, 236);
   padding: 5px;
   gap: 5px;
 }
 .box .svg-containe{
   display: flex;
-  gap:10px;
+  gap:40px;
 }
 .box .home p{
   margin: 0px;
@@ -67,4 +68,85 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.box .svg-containe img{
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+.box .image-containe{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+.box .business-container{
+  display: flex;
+  gap:20px;
+}
+.box .business{
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+
+.men-women {
+  width: 362px;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 150px;
+  margin-left: 200px;
+  border-radius: 12px;
+}
+.men-women img {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  justify-items: center;
+  border: 5px solid white;
+  margin-top: 90px;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+.men-women .image {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  height: 120px;
+  position: relative;
+  border-radius: 12px;
+  /* background-color: rgb(125, 150, 144); */
+  background-image: linear-gradient(to right,rgb(172, 170, 170), rgb(168, 167, 165), rgb(219, 214, 214),rgb(168, 167, 165));
+}
+.men-women .name{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 50px;
+}
+.men-women .course{
+  display: flex;
+  justify-content: center;
+  justify-items: center; 
+}
+
+.men-women .connection{
+  height: 100px;
+  padding: 10px;
+  margin-top: 20px;
+  border-top-style: solid;
+  border-top-width: thin;
+  
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  
+}
+.men-women .connection .text{
+  margin-top: 20px;
+}
+.men-women .connection .girl{
+  margin-bottom: 10px;
+  margin-left: px;
 }
