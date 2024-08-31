@@ -386,10 +386,72 @@ display: flex;
     justify-content: center;
     gap: 10px;
   }
+
   .box-4 {
     width: 550px;
     background-color: white;
+    border-radius: 12px;
+    margin-top: 30px;
   }
+  .box-4 .person-container{
+   padding: 10px;
+   border-bottom-style: solid;
+   border-bottom-width: thin;
+   border-color: rgb(193, 194, 194);
+  }
+  .box-4 .person-container .person img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+  }
+  .box-4 .person-container .person{
+    display: flex;
+    flex-direction: row;
+  }
+  .box-4 .person-container .text {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  .box-4 .person-container .text p {
+    font-size: 15px;
+    color: rgb(160, 161, 161);
+  }
+  .box-4 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+  }
+  .box-4 .image{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 5px;
+  }
+  .box-4 .image .text {
+    display: flex;
+    flex-direction: row;
+
+  }
+  .box-4 .image .text-container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+  }
+  .box-4 .image .text-container .p{
+    font-size: 15px;
+    color: rgb(177, 179, 179);
+  }
+  .box-4 .image .dotted {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+  }
+  .box-4 .image .dotted h5{
+    color: rgb(32, 126, 189);
+  }
+
 
   
 
