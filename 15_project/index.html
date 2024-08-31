@@ -1,71 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LinkedIn</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-    <div class="box">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="total-container">
+      <div class="box">
         <div class="search">
-        <!-- <div class="linedin"><img src="image.png/linkedIn.png" alt="LinkedIn"></div> -->
-        <div><img src="image.png/Vector (1).png" alt="searchbar"></div>
-        <p>Search</p>
-       </div>
-       <div class="svg-containe">
-        <div class="home">
-            <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#5f6368"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>
-            <p>home</p> 
+          <!-- <div class="linedin"><img src="image.png/linkedIn.png" alt="LinkedIn"></div> -->
+          <div><img src="image.png/Vector (1).png" alt="searchbar" /></div>
+          <p>Search</p>
         </div>
-        <div class="escalator_warning">
-            <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#48752C"><path d="M260-720q-33 0-56.5-23.5T180-800q0-33 23.5-56.5T260-880q33 0 56.5 23.5T340-800q0 33-23.5 56.5T260-720Zm420 200q-25 0-42.5-17.5T620-580q0-25 17.5-42.5T680-640q25 0 42.5 17.5T740-580q0 25-17.5 42.5T680-520ZM180-80v-280h-60v-240q0-33 23.5-56.5T200-680h120q22 0 40 10.5t29 29.5l143 247 41-61q8-12 21.5-19t28.5-7h117q25 0 42.5 17.5T800-420v140h-40v200H600v-284l-31 44h-88L380-496v416H180Z"/></svg>
+        <div class="svg-containe">
+          <div class="home">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="20px"
+              viewBox="0 -960 960 960"
+              width="20px"
+              fill="#5f6368"
+            >
+              <path
+                d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"
+              />
+            </svg>
+            <p>home</p>
+          </div>
+          <div class="escalator_warning">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="20px"
+              viewBox="0 -960 960 960"
+              width="20px"
+              fill="#48752C"
+            >
+              <path
+                d="M260-720q-33 0-56.5-23.5T180-800q0-33 23.5-56.5T260-880q33 0 56.5 23.5T340-800q0 33-23.5 56.5T260-720Zm420 200q-25 0-42.5-17.5T620-580q0-25 17.5-42.5T680-640q25 0 42.5 17.5T740-580q0 25-17.5 42.5T680-520ZM180-80v-280h-60v-240q0-33 23.5-56.5T200-680h120q22 0 40 10.5t29 29.5l143 247 41-61q8-12 21.5-19t28.5-7h117q25 0 42.5 17.5T800-420v140h-40v200H600v-284l-31 44h-88L380-496v416H180Z"
+              />
+            </svg>
             <p>My Network</p>
-        </div>
-        <div class="job">
-            <svg xmlns="http://www.w3.org/2000/svg" height="17px" viewBox="0 -960 960 960" width="17px" fill="#48752C"><path d="M160-120q-33 0-56.5-23.5T80-200v-440q0-33 23.5-56.5T160-720h160v-80q0-33 23.5-56.5T400-880h160q33 0 56.5 23.5T640-800v80h160q33 0 56.5 23.5T880-640v440q0 33-23.5 56.5T800-120H160Zm0-80h640v-440H160v440Zm240-520h160v-80H400v80ZM160-200v-440 440Z"/></svg>
+          </div>
+          <div class="job">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="17px"
+              viewBox="0 -960 960 960"
+              width="17px"
+              fill="#48752C"
+            >
+              <path
+                d="M160-120q-33 0-56.5-23.5T80-200v-440q0-33 23.5-56.5T160-720h160v-80q0-33 23.5-56.5T400-880h160q33 0 56.5 23.5T640-800v80h160q33 0 56.5 23.5T880-640v440q0 33-23.5 56.5T800-120H160Zm0-80h640v-440H160v440Zm240-520h160v-80H400v80ZM160-200v-440 440Z"
+              />
+            </svg>
             <p>jobs</p>
-        </div>
-        <div class="message">
-            <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#48752C"><path d="M320-520q17 0 28.5-11.5T360-560q0-17-11.5-28.5T320-600q-17 0-28.5 11.5T280-560q0 17 11.5 28.5T320-520Zm160 0q17 0 28.5-11.5T520-560q0-17-11.5-28.5T480-600q-17 0-28.5 11.5T440-560q0 17 11.5 28.5T480-520Zm160 0q17 0 28.5-11.5T680-560q0-17-11.5-28.5T640-600q-17 0-28.5 11.5T600-560q0 17 11.5 28.5T640-520ZM80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm126-240h594v-480H160v525l46-45Zm-46 0v-480 480Z"/></svg>
+          </div>
+          <div class="message">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="20px"
+              viewBox="0 -960 960 960"
+              width="20px"
+              fill="#48752C"
+            >
+              <path
+                d="M320-520q17 0 28.5-11.5T360-560q0-17-11.5-28.5T320-600q-17 0-28.5 11.5T280-560q0 17 11.5 28.5T320-520Zm160 0q17 0 28.5-11.5T520-560q0-17-11.5-28.5T480-600q-17 0-28.5 11.5T440-560q0 17 11.5 28.5T480-520Zm160 0q17 0 28.5-11.5T680-560q0-17-11.5-28.5T640-600q-17 0-28.5 11.5T600-560q0 17 11.5 28.5T640-520ZM80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm126-240h594v-480H160v525l46-45Zm-46 0v-480 480Z"
+              />
+            </svg>
             <p>messaging</p>
-        </div>
-        <div class="notifications">
-            <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#48752C"><path d="M160-200v-80h80v-280q0-83 50-147.5T420-792v-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v28q80 20 130 84.5T720-560v280h80v80H160Zm320-300Zm0 420q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM320-280h320v-280q0-66-47-113t-113-47q-66 0-113 47t-47 113v280Z"/></svg>
+          </div>
+          <div class="notifications">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="20px"
+              viewBox="0 -960 960 960"
+              width="20px"
+              fill="#48752C"
+            >
+              <path
+                d="M160-200v-80h80v-280q0-83 50-147.5T420-792v-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v28q80 20 130 84.5T720-560v280h80v80H160Zm320-300Zm0 420q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM320-280h320v-280q0-66-47-113t-113-47q-66 0-113 47t-47 113v280Z"
+              />
+            </svg>
             <p>Notification</p>
-        </div >
-        <div class="image-containe">
-           <img src="image.png/people2.jpg" alt="person2">
-           <p>me </p>
+          </div>
+          <div class="image-containe">
+            <img src="image.png/people2.jpg" alt="person2" />
+            <p>me</p>
+          </div>
         </div>
-       </div>
-       <div class="business-container">
-       <div class="business">
-        <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#48752C"><path d="M80-560v-320h320v320H80Zm80-80h160v-160H160v160ZM80-80v-320h320v320H80Zm80-80h160v-160H160v160Zm400-400v-320h320v320H560Zm80-80h160v-160H640v160ZM560-80v-320h320v320H560Zm80-80h160v-160H640v160ZM320-640Zm0 320Zm320-320Zm0 320Z"/></svg>
-        <p>For Business</p>
+        <div class="business-container">
+          <div class="business">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="20px"
+              viewBox="0 -960 960 960"
+              width="20px"
+              fill="#48752C"
+            >
+              <path
+                d="M80-560v-320h320v320H80Zm80-80h160v-160H160v160ZM80-80v-320h320v320H80Zm80-80h160v-160H160v160Zm400-400v-320h320v320H560Zm80-80h160v-160H640v160ZM560-80v-320h320v320H560Zm80-80h160v-160H640v160ZM320-640Zm0 320Zm320-320Zm0 320Z"
+              />
+            </svg>
+            <p>For Business</p>
+          </div>
         </div>
+      </div>
+      <div class="main-container">
+        <div class="box-container">
+          <div class="men-women">
+            <div class="image">
+              <img src="image.png/people2.jpg" alt="person2" />
+            </div>
+            <div class="name">
+              <h4>Vikash Kumar</h4>
+            </div>
+            <div class="course"><p>DSA || java</p></div>
+            <div class="connection">
+              <div class="text">
+                <h5>Connection</h5>
+                <p>Connect with alumi</p>
+              </div>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="#5f6368"
+                >
+                  <path
+                    d="M480-660q-29 0-49.5-20.5T410-730q0-29 20.5-49.5T480-800q29 0 49.5 20.5T550-730q0 29-20.5 49.5T480-660Zm-80 500v-160h-80l95-255q8-20 25.5-32.5T480-620q22 0 39.5 12.5T545-575l95 255h-80v160H400Z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="primium">
+              <div class="text">
+                <p>Network smater with premium</p>
+                <h5>Try 1 month of premium for 0 rupies</h5>
+              </div>
+            </div>
+            <div class="svg">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 29"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  clip-path="url(#clip0_48_417)"
+                  filter="url(#filter0_d_48_417)"
+                >
+                  <path
+                    d="M17 3H7C5.9 3 5.01 3.9 5.01 5L5 21L12 18L19 21V5C19 3.9 18.1 3 17 3ZM17 18L12 15.82L7 18V5H17V18Z"
+                    fill="#2A282F"
+                  />
+                </g>
+                <defs>
+                  <filter
+                    id="filter0_d_48_417"
+                    x="-4"
+                    y="0"
+                    width="32"
+                    height="32"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha"
+                    />
+                    <feOffset dy="4" />
+                    <feGaussianBlur stdDeviation="2" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="BackgroundImageFix"
+                      result="effect1_dropShadow_48_417"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="effect1_dropShadow_48_417"
+                      result="shape"
+                    />
+                  </filter>
+                  <clipPath id="clip0_48_417">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <p>Save items</p>
+            </div>
+          </div>
+          <div class="box-1">
+            <div class="text">
+              <p>Groups</p>
+              <div class="event">
+                <p>Events</p>
+                <div class="add"><p>+</p></div>
+              </div>
+              <p>Followed HashTages</p>
+            </div>
+            <div class="discover"><h5>Discover more</h5></div>
+          </div>
+        </div>
+        <div class="hiring">
+           <div image><img src="image.png/people2.jpg" alt="person2"></div>
+           <div class="text">
+            <h5>Hi Vikash, are you hiring? </h5>
+            <p>Discover free and easy ways to find a great hire, fast. </p>
+           </div>
+        </div>
+        <div classs="right">manish</div>
+      </div>
     </div>
-</div>
-
-<div class="men-women">
- <div class="image">   
- <img src="image.png/people2.jpg" alt="person2">
-</div>
-<div class="name">
-    <h4>Vikash Kumar</h4>
-</div>
-<div class="course"><p>DSA || java</p></div>
-<div class="connection">
-    <div class="text">
-    <h5>Connection</h5>
-    <p>Connect with alumi</p>
-   </div>
-   <div class="girl">
-    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-660q-29 0-49.5-20.5T410-730q0-29 20.5-49.5T480-800q29 0 49.5 20.5T550-730q0 29-20.5 49.5T480-660Zm-80 500v-160h-80l95-255q8-20 25.5-32.5T480-620q22 0 39.5 12.5T545-575l95 255h-80v160H400Z"/></svg>
-   </div>
-</div>
-</div>
-    
-</body>
+  </body>
 </html>

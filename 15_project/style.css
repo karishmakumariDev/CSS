@@ -7,6 +7,10 @@ body{
     margin: 0;
     background-color: rgb(247, 245, 243);
 }
+.main-container{
+  display: flex;
+  gap: 30px;
+}
 .box {
   display: flex;
   flex-direction: row;
@@ -28,7 +32,7 @@ body{
    margin-left: 250px;
   width: 300px;
   height: 30px;
-  background-color: rgb(217, 236, 236);
+  background-color: rgb(236, 236, 236);
   padding: 5px;
   gap: 5px;
 }
@@ -38,6 +42,8 @@ body{
 }
 .box .home p{
   margin: 0px;
+  font-size: 14px;
+  color: rgb(153, 152, 152);
 }
 .box .home {
   display: flex;
@@ -51,11 +57,20 @@ body{
   align-items: center;
   justify-content: center;
 }
+.box .escalator_warning p{
+  font-size: 14px;
+  color: rgb(153, 152, 152);
+}
+
 .box .job{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center; 
+}
+.box .job p{
+  font-size: 14px;
+  color: rgb(153, 152, 152); 
 }
 .box .message{
   display: flex;
@@ -63,11 +78,19 @@ body{
   align-items: center;
   justify-content: center;
 }
+.box .message p{
+  font-size: 14px;
+  color: rgb(153, 152, 152); 
+}
 .box .notifications{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.box .notifications p{
+  font-size: 14px;
+  color: rgb(153, 152, 152);  
 }
 .box .svg-containe img{
   width: 20px;
@@ -80,6 +103,10 @@ body{
   align-items: center;
   justify-content: center; 
 }
+.box .image-containe p{
+  font-size: 14px;
+  color: rgb(153, 152, 152);   
+}
 .box .business-container{
   display: flex;
   gap:20px;
@@ -90,14 +117,27 @@ display: flex;
   align-items: center;
   justify-content: center; 
 }
+.box .business p{
+  font-size: 14px;
+  color: rgb(153, 152, 152);   
+}
+.box-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* border-radius: 12px; */
+}
 
 .men-women {
   width: 362px;
-  height: 600px;
   background-color: rgb(255, 255, 255);
-  margin-top: 150px;
+  margin-top: 50px;
   margin-left: 200px;
   border-radius: 12px;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(214, 216, 218);
+ 
 }
 .men-women img {
   display: flex;
@@ -117,6 +157,7 @@ display: flex;
   height: 120px;
   position: relative;
   border-radius: 12px;
+ 
   /* background-color: rgb(125, 150, 144); */
   background-image: linear-gradient(to right,rgb(172, 170, 170), rgb(168, 167, 165), rgb(219, 214, 214),rgb(168, 167, 165));
 }
@@ -146,7 +187,119 @@ display: flex;
 .men-women .connection .text{
   margin-top: 20px;
 }
-.men-women .connection .girl{
-  margin-bottom: 10px;
-  margin-left: px;
-}
+  .men-women .primium{
+    height: 100px;
+  
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  }
+  .men-women .primium p{
+    color: rgb(161, 161, 161);
+  }
+  .men-women .primium .text{
+   padding-top: 30px;
+   padding-left: 10px;
+  }
+  .men-women .primium .text h5{
+    font-size: 17px;
+  }
+  .men-women .svg{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+  }
+
+  .box-1{
+    display: flex;
+    flex-direction: column;
+    width: 362px;
+    background-color: white;
+    margin-left: 200px;
+    border-radius: 12px;
+   
+    
+  }
+  .box-1 .text {
+    padding: 10px;
+  }
+  .box-1 p{
+    padding: 5px;
+    color: rgb(48, 121, 216);
+  }
+  .box-1 .add {
+    /* display: flex;
+    justify-content: flex-end; */
+    margin-left: 250px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+  .box-1 .event{
+    display: flex;
+    flex-direction: row;
+  }
+  .box-1 .add p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+  }
+  .box-1 .discover{
+    display: flex;
+    justify-content: center;
+    border-top-style: solid;
+    border-top-width: thin; 
+    padding: 10px;
+    font-size: 20px;
+  }
+  .hiring{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    width: 550px;
+    height: 400px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px;
+  }
+  .hiring img {
+    
+    width: 80px;
+    height: 80px;
+    border-radius: 100%; 
+    /* margin-left: 10px;
+    margin-left: 230px; */
+   
+  }
+  .hiring .image {
+    height: 90px;
+    display: flex;
+     align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .hiring .text {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .hiring .text h5{
+    font-size: 18px;
+    padding: 5px;
+
+  }
+  .hiring .text p{
+    font-size: 18px;
+    padding: 5px; 
+  }
+
+  
+  
+
+  
