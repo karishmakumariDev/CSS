@@ -5,7 +5,7 @@
 }
 body{
     margin: 0;
-    background-color: rgb(247, 245, 243);
+    background-color: rgb(242, 237, 237);
 }
 .main-container{
   display: flex;
@@ -19,6 +19,7 @@ body{
   background-color:white;
   border-style: solid;
   border-width: thin;
+  border-color: rgb(210, 211, 211);
   gap: 60px;
   
 
@@ -521,7 +522,7 @@ display: flex;
   .total-svg {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 142px;
     padding: 20px;
   }
   .thum {
@@ -530,6 +531,8 @@ display: flex;
     gap: 10px;
   } 
   .thum p {
+    display: flex;
+    align-items: center;
     color: rgb(98, 99, 99);
   } 
   .total-svg .comment {
@@ -538,6 +541,66 @@ display: flex;
     gap: 10px; 
   }
   .total-svg .comment p{
+    display: flex;
+    align-items: center;
     color: rgb(102, 102, 102); 
   }
+  .total-svg .send {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .total-svg .send p{
+    display: flex;
+    align-items: center;
+    color: rgb(102, 102, 102);  
+  }
+
+  .box-6 {
+    width: 305px;
+    height: 600px;
+    background-color:white;
+    border-radius: 12px;
+    margin-top: 50px;
+   padding: 10px;
+    
+  }
+  .box-6 h4 {
+    color: rgb(132, 133, 132);
+  }
+  .box-6 .text-container {
+    gap: 10px;
+  }
+  .box-6 .text-container .text {
+    padding-top: 10px;
+  }
+  .box-6 .text-container .text p{
+    color: rgb(136, 137, 137);
+  }
+  .box-6 .text-container .ip p{
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .box-6 .color-box img{
+    width: 30px;
+    height: 30px;
+  }
+  .box-6 .color-box {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  .box-6 .color-box .text {
+    display: flex;
+    flex-direction:column;
+  }
+  .box-6 .color-box .crow p{
+    font-size: 15px;
+    color: rgb(135, 137, 137);
+  }
+
+ 
+
+
 
