@@ -179,6 +179,7 @@ display: flex;
   margin-top: 20px;
   border-top-style: solid;
   border-top-width: thin;
+  border-color: rgb(213, 216, 216);
   
   border-bottom-style: solid;
   border-bottom-width: thin;
@@ -192,6 +193,7 @@ display: flex;
   
   border-bottom-style: solid;
   border-bottom-width: thin;
+  border-color: rgb(213, 216, 216);
   }
   .men-women .primium p{
     color: rgb(161, 161, 161);
@@ -252,6 +254,7 @@ display: flex;
     justify-content: center;
     border-top-style: solid;
     border-top-width: thin; 
+    border-color: rgb(213, 216, 216);
     padding: 10px;
     font-size: 20px;
   }
@@ -314,9 +317,11 @@ display: flex;
     display: flex;
     text-align: center;
     justify-content: center;
-    border: solid rgb(212, 207, 207);
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(190, 191, 192);
     width: 250px;
-    border-radius: 12px;
+    border-radius: 50px;
     padding: 5px;
   }
 
@@ -397,7 +402,7 @@ display: flex;
    padding: 10px;
    border-bottom-style: solid;
    border-bottom-width: thin;
-   border-color: rgb(193, 194, 194);
+   border-color: rgb(222, 223, 223);
   }
   .box-4 .person-container .person img{
     width: 40px;
@@ -407,6 +412,11 @@ display: flex;
   .box-4 .person-container .person{
     display: flex;
     flex-direction: row;
+  }
+  .box-4 .person-container .person .svg{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
   }
   .box-4 .person-container .text {
     display: flex;
@@ -452,7 +462,82 @@ display: flex;
     color: rgb(32, 126, 189);
   }
 
+  .garden img{
+   width: 550px;
+   height: 600px;
+   border-radius: 0;
+  }
+   .total-circule {
+    display: flex;
+    flex-direction: row;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-color: rgb(222, 223, 223);
+   }
+  .circule {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: rgb(135, 149, 248);
+  }
+  .circule .thumb {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+  }
+  .circul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: rgb(227, 113, 75);
+  }
+  .circul .huart {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+  }
 
-  
+  .circule + .circul{
+    margin-left: -0.3rem;
+  }
+  .total-circule .text {
+    display: flex;
+    flex-direction: row;
+    margin-left: 350px;
+    gap: 10px;
+  }
+  .total-svg {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+  }
+  .thum {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  } 
+  .thum p {
+    color: rgb(98, 99, 99);
+  } 
+  .total-svg .comment {
+    display: flex;
+    flex-direction: row;
+    gap: 10px; 
+  }
+  .total-svg .comment p{
+    color: rgb(102, 102, 102); 
+  }
 
-  
