@@ -128,12 +128,14 @@ display: flex;
   gap: 10px;
   /* border-radius: 12px; */
 }
-
+.main-container {
+padding-top: 50px;
+padding-left: 200px;
+}
 .men-women {
   width: 362px;
   background-color: rgb(255, 255, 255);
-  margin-top: 50px;
-  margin-left: 200px;
+  /* margin-left: 200px; */
   border-radius: 12px;
   border-style: solid;
   border-width: thin;
@@ -217,7 +219,7 @@ display: flex;
     flex-direction: column;
     width: 362px;
     background-color: white;
-    margin-left: 200px;
+    /* margin-left: 200px; */
     border-radius: 12px;
    
     
@@ -273,7 +275,6 @@ display: flex;
     border-width: thin;
     width: 550px;
     height: 205px;
-    margin-top: 50px;
     background-color: white;
     border-radius: 12px;
     border-color: rgb(214, 214, 214);
@@ -555,27 +556,40 @@ display: flex;
     align-items: center;
     color: rgb(102, 102, 102);  
   }
-
+  .main-box3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  } 
   .box-6 {
     width: 305px;
-    height: 600px;
+    height: fit-content;
+    /* flex-direction: column; */
     background-color:white;
+    border-style: solid;
+    border-width: thin;
     border-radius: 12px;
-    margin-top: 50px;
-   padding: 10px;
+    border-color: rgb(217, 218, 219);
+    padding: 10px;
+   /* gap: 10px; */
     
   }
   .box-6 h4 {
     color: rgb(132, 133, 132);
   }
-  .box-6 .text-container {
+  .box-6 .total-text{
+    display: flex;
+    flex-direction: column;
     gap: 10px;
   }
-  .box-6 .text-container .text {
-    padding-top: 10px;
+  .box-6 .color-box-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
   .box-6 .text-container .text p{
-    color: rgb(136, 137, 137);
+    font-size: 14px;
+    color: rgb(113, 115, 115);
   }
   .box-6 .text-container .ip p{
     color: black;
@@ -590,6 +604,7 @@ display: flex;
     display: flex;
     flex-direction: row;
     gap: 5px;
+   
   }
   .box-6 .color-box .text {
     display: flex;
@@ -597,10 +612,67 @@ display: flex;
   }
   .box-6 .color-box .crow p{
     font-size: 15px;
-    color: rgb(135, 137, 137);
+    color: rgb(107, 109, 109);
   }
-
- 
-
+  .box-7 {
+    width: 305px;
+    height: fit-content;
+    background-color: white;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 12px;
+    border-color: rgb(217, 218, 219);
+    padding: 10px;
+  }
+  .box-7 .svg {
+   display: flex;
+   justify-content: flex-end;
+   text-align: center;
+   align-items: center;
+   gap: 10px;
+  }
+  .box-7 .svg .ad p{
+    color: rgb(23, 67, 138);
+  }
+  .box-7 .p-text {
+    font-size: 14px;
+    color: rgb(155, 156, 158);
+  }
+  .box-7 .image-containe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .image-containe .image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .image-containe .person2 img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+  }
+  .image-containe .linkedin img{
+    width: 60px;
+    height: 60px;
+  }
+  .round {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 150px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 50px;
+    border-color: rgb(17, 69, 121);
+  }
+  .round h5 {
+    color: rgb(16, 70, 124);
+  }
 
 
