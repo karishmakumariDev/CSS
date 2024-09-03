@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 12px;
+    background-color: #F4F4F2;
+    font-family: 'Roboto', sans-serif;
+}
+.chip-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.chip-container .chip{
+display: flex;
+align-items: center;
+justify-content: center;
+border-style: solid;
+border-width: thin;
+padding: 9px 12px;
+border-radius: 15px;
+font-size: 18px;
+border-color: rgb(243, 247, 247);
+background-color: rgb(201, 201, 201);
+}
+#deshboard {
+    background-color: #0A6847;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    grid-area: 10px;
+}
+.profile-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 13px;
+    padding: 10px;
+    gap: 12px;
+    border: 3px solid rgb(4, 99, 41);
+}
+
+.people1 img {
+ width: 100px;
+  height: 100px; 
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgb(186, 188, 189);
+}
+.taniya h2{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+.Manage-profile {
+    border: none;
+     width: 100%; 
+    border-radius: 16px;
+    color: white;
+    font-weight: 600;
+    padding: 8px 0px;
+    background-color: #0A6847;
+}
+.manage{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
