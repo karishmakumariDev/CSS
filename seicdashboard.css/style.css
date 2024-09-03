@@ -13,6 +13,11 @@ body {
     background-color: #F4F4F2;
     font-family: 'Roboto', sans-serif;
 }
+.total-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 .chip-container {
     display: flex;
     flex-direction: column;
@@ -32,12 +37,14 @@ border-color: rgb(243, 247, 247);
 background-color: rgb(201, 201, 201);
 }
 #deshboard {
+    color: white;
     background-color: #0A6847;
 }
 .top{
     display: flex;
     flex-direction: column;
     grid-area: 10px;
+    gap: 15px;
 }
 .profile-card {
     display: flex;
@@ -83,3 +90,96 @@ background-color: rgb(201, 201, 201);
     flex-direction: column;
     gap: 10px;
 }
+.price-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 13px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.LinkedIn-text {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.LinkedIn img {
+    width: 20px;
+    height: 20px;
+}
+.LinkedIn p{
+    font-size: 18px;
+}
+.text-containe {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+}
+.mock h2{
+    color: green;
+}
+.explore-arrow {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(187, 216, 187);
+    /* padding: 12px 12px; */
+   border-bottom-left-radius:13px ;
+   border-bottom-right-radius:13px ;
+    gap: 10px;
+}
+.price-card h3 {
+   
+    padding: 12px 12px;
+}
+.price-card1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 13px;
+    background-color: rgb(187, 216, 187);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;  
+}
+.price-card1 .explore-arrow {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: white;
+    /* padding: 12px 12px; */
+   border-bottom-left-radius:13px ;
+   border-bottom-right-radius:13px ;
+    gap: 10px;  
+}
+.price-card1 .explore-arrow h3{
+    padding: 12px 12px;
+} 
+
+.boton-conatine {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #05683e;
+}
+.middle-boton {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: white;
+    padding: 9px 13px;
+}
+.bottom {
+    display: flex;
+    flex-direction: column;
+    border-radius: 13px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+
