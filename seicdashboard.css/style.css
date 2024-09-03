@@ -179,7 +179,74 @@ background-color: rgb(201, 201, 201);
     display: flex;
     flex-direction: column;
     border-radius: 13px;
+    gap: 10px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
+.bottom .h3 h3 {
+    width: 100%;
+    color: white;
+    padding: 15px 15px;
+    background-color: #05683e;
+    border-top-left-radius:13px ;
+    border-top-right-radius:13px ;
+}
+.total-div{
+    padding: 10px;
+}
+.box-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 13px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;  
+}
+.box-1 .LinkedIn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.LinkedIn-view {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.view {
+    color: white;
+    background-color: black;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.box-1 .h3 {
+    color: #0b0c0b;
+}
+.box-1 .circule {
+ display: flex;  
+ align-items: center; 
+ text-align: center;
+ justify-content: center;
+ width: 40px;
+ height: 40px;
+ border-radius: 100%;
+ background-color: rgb(133, 134, 134);
+}
+.box-1 .circule h4 {
+    color: #0A6847;
+}
+.middle-part {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.innder-bar {
+    height: 20px;
+}
+
+.bar-container {
+    background-color: #C7C8CC;
+}
+
+
 
 
