@@ -11,7 +11,7 @@ body {
     margin: 0;
     padding: 12px;
     background-color: #F4F4F2;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
 }
 .total-container {
     display: flex;
@@ -24,7 +24,7 @@ body {
     justify-content: center;
     gap: 15px;
 }
-.chip-container .chip{
+ .chip{
 display: flex;
 align-items: center;
 justify-content: center;
@@ -33,6 +33,7 @@ border-width: thin;
 padding: 9px 12px;
 border-radius: 15px;
 font-size: 18px;
+flex: 1 1 100%;  
 border-color: rgb(243, 247, 247);
 background-color: rgb(201, 201, 201);
 }
@@ -57,6 +58,7 @@ background-color: rgb(201, 201, 201);
     border-radius: 13px;
     padding: 10px;
     gap: 12px;
+    flex: 1 1 100%;
     border: 3px solid rgb(4, 99, 41);
 }
 
@@ -131,9 +133,14 @@ background-color: rgb(201, 201, 201);
    border-bottom-right-radius:13px ;
     gap: 10px;
 }
+.explore-arrow .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .price-card h3 {
    
-    padding: 12px 12px;
+    padding: 8px 12px;
 }
 .price-card1 {
     display: flex;
@@ -171,6 +178,7 @@ background-color: rgb(201, 201, 201);
 .middle-boton {
     display: flex;
     flex-direction: row;
+    width: 100%;
     gap: 10px;
     color: white;
     padding: 9px 13px;
@@ -200,6 +208,7 @@ background-color: rgb(201, 201, 201);
     display: flex;
     flex-direction: column;
     gap: 10px;
+    flex: 1 1 100%;
     padding: 10px;
     border-radius: 13px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;  
@@ -218,7 +227,7 @@ background-color: rgb(201, 201, 201);
 .view {
     color: white;
     background-color: black;
-    padding: 8px 12px;
+    padding: 10px;
     border-radius: 5px;
 }
 .box-1 .h3 {
@@ -251,5 +260,75 @@ background-color: rgb(201, 201, 201);
 }
 
 
+@media (min-width: 700px) { 
+.chip-container {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
 
+    .chip  {
+        flex: 1 1 30%;
+    }
+    .top {
+        flex-direction: row;
+    }
+    .profile-card {
+        flex: 1 1 40%;
+    }
+    .boton-conatine {
+        display: flex;
+        justify-content: end;
+    }
+    .middle-boton {
+        width: 30%;
+        text-align: right;
+    }
+    .total-div {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .box-1 {
+        flex: 1 1 45%;
+    }
+}
+
+@media (min-width: 1200px) { 
+
+    .chip-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        gap: 15px;
+    }
+
+    .chip {
+        flex: none;
+        padding: 9px 12px;
+    }
+    .top {
+        flex-direction: row;
+    }
+    .profile-card {
+        flex: 1 1 23%;
+    }
+    .boton-conatine {
+        display: flex;
+        justify-content: end;
+    }
+    .middle-boton {
+        width: 15%;
+        text-align: right;
+    }
+    .total-div {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+        padding: 20px;
+    }
+    .box-1 {
+        flex: 1 1 23%;
+    }
+}
 
